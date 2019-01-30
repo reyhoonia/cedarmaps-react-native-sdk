@@ -32,9 +32,9 @@
     "eslint-plugin-react": "^7.4.0",
     "istanbul": "^1.0.0-alpha"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@cedarstudios/react-native-mapbox-gl": "git+https://github.com/cedarstudios/react-native-mapbox-gl.git",
-    "react": "^16.7.0",
-    "react-native": "^0.57.8"
+    "react": ">= 16.7.0",
+    "react-native": ">= 0.57.8"
   }
 }
